@@ -1,0 +1,38 @@
+body{
+    color: #536d8e;
+}
+#container {
+    display: flex;
+    width: 810px;
+    height: 200px;
+    border: 2px solid #eeeeee;
+    background-color: #EF8080;
+    position: relative;
+}
+
+.tabs_main {
+    cursor: pointer;
+}
+
+.tabs_title {
+    width: 200px;
+    font-size: 20px;
+    margin-right: 10px;
+    padding: 20px 30px;
+    border: 2px solid #eeeeee;
+}
+
+.tabs_body{
+    display: none;
+    width: 810px;
+    height: 100px;
+    padding: 20px;
+}
+.active{
+    display: flex;
+    position: absolute;
+    left: 0;
+}
+.tab-active {
+    border: none;
+}

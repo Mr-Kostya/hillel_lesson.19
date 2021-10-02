@@ -13,13 +13,13 @@ class Tabs {
         this.bindEvents();
     }
 
-    activateTab(element) {
+    activateTab(el) {
         const tabs = document.getElementsByClassName(Tabs.TITLE_C);
         Array.prototype.forEach.call(tabs, (tab) => {
             console.log(tab.classList);
             tab.classList.remove(Tabs.ACTIVE_TAB_C);
         });
-        element.classList.add(Tabs.ACTIVE_TAB_C);
+        el.classList.add(Tabs.ACTIVE_TAB_C);
     }
 
     onTabsElClick(e) {

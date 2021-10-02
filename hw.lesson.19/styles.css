@@ -21,9 +21,6 @@ body{
     padding: 20px 30px;
     border: 2px solid #eeeeee;
 }
-.tabs_title:visited {
-    border: 2px solid #EF8080;
-}
 
 .tabs_body{
     display: none;
@@ -35,4 +32,7 @@ body{
     display: flex;
     position: absolute;
     left: 0;
+}
+.tab-active {
+    border: none;
 }
